@@ -19,7 +19,7 @@ I have acquired the dataset, the next step involves conducting Exploratory Data 
 
 **1.1 Dataset**
 
-**Zomato.csv** dataset represents real-world Zomato ratings for restaurants in Bangalore, encompassing ratings for approximately 51,717 restaurants across 17 distinct features. Among these features, one stands out as the target variable: the rating assigned to each restaurant.
+**Zomato.csv** dataset represents real-world Zomato ratings for restaurants in Bangalore, encompassing ratings for approximately 51,717 restaurants across 17 distinct features. Among these features, one stands out as the target variable: the rating assigned to each restaurant. This data is accurate to that available on the zomato website until 15 March 2019.
 
 **1.2 Initial Observation**
 
@@ -39,9 +39,76 @@ I have acquired the dataset, the next step involves conducting Exploratory Data 
 - Rare features of "listed_in(type)" were grouped
 - One hot encoding was applied to "online_order", "book_table"
 
-**1.3 Univariate and Bivariate**
+**1.4 Univariate, Bivariate and Multivariate Analysis**
 
-The following diagram shows the Countplot, percentage distribution of Online_Order in the dataset and we can observe that the data is imbalanced but it is acceptable for our purpose. Furthermore, the figure also contains a countplot of "rating" 
+**1.4.1. Online Order Distribution**
+
+The following diagram shows the Countplot, percentage distribution of Online_Order in the dataset and we can observe that the data is imbalanced but it is acceptable for our purpose. Furthermore, the figure also contains a countplot of "rating" grouped by "Online_Order".
+
+![Img_1](Images/onlin_ord.png)
+
+**Figure 1.** Distribution of Online_order
+
+**1.4.2. Book Table Distribution**
+
+The following diagram shows the Countplot, percentage distribution of Book_table in the dataset and we can observe that the data is imbalanced but it is acceptable for our purpose. Furthermore, the figure also contains a countplot of "rating" grouped by "Book_table".
+
+![Img_2](Images/bk_tbl.png)
+
+**Figure 2.** Distribution of Book_table
+
+**1.4.3. Vote Distribution**
+
+The following diagram shows the distribution of "vote" feature and also shows the boxplot with the vote feature versus rating to check for any impact on the men and outliers for the given rating class. 
+
+![Img_3](Images/vt_dis.png)
+
+**Figure 3.** Distribution of Book_table
+
+**1.4.4. Approx cost for 2 People Distribution**
+
+The following diagram shows the distribution of "approx_cost(for two people)" feature and also shows the boxplot with the vote feature versus rating to check for any impact on the men and outliers for the given rating class. 
+
+![Img_4](Images/cst_dis.png)
+
+**Figure 4.** Distribution of Approx cost for 2 People
+
+**1.4.5. List_in(type) Distribution**
+
+The following diagram shows the Countplot, percentage distribution of list_in(type) in the dataset and we can observe that the data is imbalanced but it is acceptable for our purpose. Furthermore, the figure also contains a countplot of "rating" grouped by "list_in(type)".
+
+![Img_2](Images/ln_typ.png)
+
+**Figure 5.** Distribution of List_in(type)
+
+**1.4.6. Correlation Analysis**
+
+The following diagram shows the correlation between all of our features 
+
+![Img_2](Images/cor_htmp.png)
+**Figure 6.** Correlation Heatmap
+
+**1.5. EDA Observation**
+- In Banglore 65.7% of restaurants are accepts online orders and 34.3% of the restaurants do not accept online orders
+- 84.8% restaurants in Banglore do not provide table booking facility.
+- Over 90 percent of the restaurant falls in class 3 and 4 i.e. 3-5 rating score
+- In bangalore almost 90% of restaurants serve food for budget less than 1000 INR
+- The Restaurants offering tabel booking service tend to get more votes from customers
+- The mean value for Approximate cost of 2 people goes above 1000 for resturents that offer table booking service
+- There is a strong relationships between Table booking service and rating of a resturant
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
