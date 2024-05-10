@@ -59,7 +59,7 @@ The following diagram shows the Countplot, percentage distribution of Book_table
 
 **1.4.3. Vote Distribution**
 
-The following diagram shows the distribution of "vote" feature and also shows the boxplot with the vote feature versus rating and book_tabel feature to check for significant impact on the mean and for outliers for the given rating class as well as book_table feature. 
+The following diagram shows the distribution of "vote" feature and also shows the boxplot with the vote feature versus rating and book_tabel feature to check for significant impact on the median and for outliers for the given rating class as well as book_table feature. 
 
 ![Img_3](Images/vt_dis.png)
 
@@ -67,7 +67,7 @@ The following diagram shows the distribution of "vote" feature and also shows th
 
 **1.4.4. Approx cost for 2 People Distribution**
 
-The following diagram shows the distribution of "approx_cost(for two people)" feature and also shows the boxplot with the approximate cost feature versus rating and book_tabel feature to check for significant impact on the mean and for outliers for the given rating class as well as book_table feature. 
+The following diagram shows the distribution of "approx_cost(for two people)" feature and also shows the boxplot with the approximate cost feature versus rating and book_tabel feature to check for significant impact on the median and for outliers for the given rating class as well as book_table feature. 
 
 ![Img_4](Images/cst_dis.png)
 
