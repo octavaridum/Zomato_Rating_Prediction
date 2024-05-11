@@ -195,7 +195,7 @@ When we apply Pycaret to find the best fit model we can see that the Extra Tree 
 
 ## Conclusion 📢
 
-As expected due to the imbalanced dataset all the models show slightly worst performance when predicting class 1 and class 2 however class 3 and class 4 have a good level of performance with regards to their precision, recall and F1 score. Deccision Tree, Random Forest, Stacking and Blending seem to acomplish acceptable results with data limitation that existed.  
+As expected due to the imbalanced dataset all the models show slightly worst performance when predicting class 1 and class 2 however class 3 and class 4 have a good level of performance with regards to their precision, recall and F1 score. Decision Tree, Random Forest, Stacking and Blending seem to acomplish acceptable results with data limitation that existed.  
 
 
 
