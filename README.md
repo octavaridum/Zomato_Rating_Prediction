@@ -189,7 +189,7 @@ When we apply Pycaret to find the best fit model we can see that the Extra Tree 
 **Results & Metrics :** The following diagram shows the confusion matrix and classification report with precision, recall, and F1-score.
 
 ![Decision Tree Class Report](Images/et_cr.png)
-![Decision Tree Confusion Matrix](Images/etc_cfm.png)
+![Decision Tree Confusion Matrix](Images/et_cmmf.png)
 
 **Figure 13.** Classification Report for Blended Extra Tree Classifier Model   
 
